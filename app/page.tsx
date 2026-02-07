@@ -2,6 +2,7 @@ import { Link } from "@heroui/link";
 import { Snippet } from "@heroui/snippet";
 import { Code } from "@heroui/code";
 import { button as buttonStyles } from "@heroui/theme";
+import NextLink from "next/link";
 
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
@@ -23,25 +24,19 @@ export default function Home() {
       </div>
 
       <div className="flex gap-3">
-        <Link
-          isExternal
+
+
+
+        <NextLink
           className={buttonStyles({
             color: "primary",
             radius: "full",
             variant: "shadow",
           })}
-          href={siteConfig.links.docs}
+          href="/events/mahashivratri-2026"
         >
-          Documentation
-        </Link>
-        <Link
-          isExternal
-          className={buttonStyles({ variant: "bordered", radius: "full" })}
-          href={siteConfig.links.github}
-        >
-          <GithubIcon size={20} />
-          GitHub
-        </Link>
+          Mahashivratri 2026
+        </NextLink>
       </div>
 
       <div className="mt-8">
