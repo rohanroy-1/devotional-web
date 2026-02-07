@@ -1,53 +1,76 @@
-# Next.js & HeroUI Template
+# 🪔 Devotional Event Platform
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+A reusable, scalable web platform built to host devotional and spiritual events.  
+Designed with respect, simplicity, and future growth in mind.
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+This project allows organizers to manage multiple events over time while keeping
+registration ethical, transparent, and accessible.
 
-## Technologies Used
+---
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [HeroUI v2](https://heroui.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+## 🌸 Featured Event
+### Mahashivratri Satsang & Prasad Seva
 
-## How to Use
+- 🗓️ Date: To be announced  
+- 📍 Venue: To be announced  
+- 🎟️ Event Registration: **Free**
+- 🍛 Prasad (Food): ₹100 (optional seva contribution)
 
-### Use the template with create-next-app
+> Participation in the event is free.  
+> Payment is collected only to support food and prasad arrangements.
 
-To create a new project based on this template using `create-next-app`, run the following command:
+---
 
-```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
-```
+## ✨ Key Features
+- 🧘 Devotional, calm UI with cultural sensitivity
+- 🪔 Interactive diya animations triggered on scroll
+- 📄 Dedicated event pages (reusable for future events)
+- 📝 Simple registration flow
+- 💳 Payment gateway for optional food/prasad seva
+- 🔁 Easily extendable for upcoming festivals and gatherings
+- 📱 Fully responsive design
 
-### Install dependencies
+---
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+## 🧱 Project Architecture
+## 🛠️ Tech Stack
+- **Frontend:** React / Next.js
+- **Styling:** CSS / Tailwind CSS
+- **Animations:** CSS + JavaScript (Intersection Observer)
+- **Payments:** Razorpay
+- **Version Control:** Git & GitHub
 
-```bash
+---
+
+## 🚀 Running the Project Locally
+
+1️⃣ Clone the repository
+
+git clone https://github.com/rohanroy-1/devotional-web
+cd devotional-web
+
+2️⃣ Install dependencies
 npm install
-```
 
-### Run the development server
-
-```bash
+3️⃣ Start development server
 npm run dev
-```
 
-### Setup pnpm (optional)
+The application will run at http://localhost:3000.
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+ Environment Variables
 
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
+Create a .env.local file in the root directory:
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+RAZORPAY_KEY_ID=your_key_here
+RAZORPAY_KEY_SECRET=your_secret_here
 
-## License
+👩‍💻 Contributors
 
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
+Anshu Jain
+
+Rohan Roy
+
+📜 License
+
+This project is developed for community and devotional use.
+Commercial usage or redistribution requires prior permission from the contributors.
