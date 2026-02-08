@@ -10,3 +10,77 @@
     --font-sans: "font", sans-serif;
     --font-mono: "monospace", monospace;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-inter);
+}
+
+:root {
+    --teal-dark: #0f766e;
+    --teal-light: #5eead4;
+    --gold-soft: rgba(255, 215, 160, 0.6);
+}
+
+@keyframes slow-sway {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(1.5deg);
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
+@keyframes flicker {
+
+    0%,
+    100% {
+        opacity: 0.9;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+body {
+    background:
+        radial-gradient(circle at center, rgba(255, 200, 120, 0.12), transparent 55%)
+}

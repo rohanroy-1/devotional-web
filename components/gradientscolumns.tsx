@@ -16,7 +16,7 @@ export default function GradientColumns() {
                     key={i}
                     className={`flex justify-center ${h}`}
                 >
-                    <div className="w-full bg-gradient-to-b from-teal-500/20 via-teal-300/10 to-transparent" />
+                    <div className="w-full bg-gradient-to-b from-gray-500/20 via-gray-300/10 to-transparent" />
                 </div>
             ))}
         </div>
